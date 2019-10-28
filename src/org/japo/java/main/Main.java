@@ -22,16 +22,13 @@ import java.util.Locale;
  * @author Elísabet Palomino
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
-        final double CAMBIO_EURO_DOLAR= 1.0921;
-        
-        System.out.printf (Locale.ENGLISH, "El cambio de hoy es 1€ por %.2f$ \n",CAMBIO_EURO_DOLAR);    //System es una clase,out es un recurso de la clase System. el punto indica el recurso.  
-           
-             
-        
-        
+
+        final double CAMBIO_EURO_DOLAR = 1.0921;
+
+        System.out.printf(Locale.ENGLISH, "El cambio de hoy es 1€ por %.2f$ %n", CAMBIO_EURO_DOLAR);    //System es una clase,out es un recurso de la clase System. el punto indica el recurso.  
+
     }//main
-    
+
 }//class
